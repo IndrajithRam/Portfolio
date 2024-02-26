@@ -15,16 +15,10 @@ export default function Projects() {
               <div class="card-body">
                 <h5 class="card-title" style={{ fontSize: "30px", color: "#f04343", marginBottom: "1rem" }}>Alpha Global IT</h5>
                 <p className="card-text">
-                  In my role at GlobeMed, I took charge of Automation testing
-                  for Alpha's EMR solution. I developed a robust Hybrid
-                  framework using Selenium and Cucumber, integrating these tools
-                  seamlessly to enhance the efficiency of the testing process. I
-                  actively collaborated with the Chief Software Officer (CSO),
-                  providing regular updates and reports on new requirements to
-                  ensure alignment with the project goals. Additionally, I
-                  demonstrated adept problem-solving skills by promptly handling
-                  and resolving high-priority tasks, contributing to the overall
-                  success of the testing initiatives.
+                Alpha's Globemed EMR solution aim to streamline healthcare workflows, improve the accuracy and accessibility of patient information, enhance communication among healthcare providers, and ultimately contribute to more efficient and effective patient care.
+                </p>
+                <p className="card-text mt-1">
+                  I took charge of Automation testing for Alpha's EMR solution. I developed a robust Hybrid framework using Selenium and Cucumber, integrating these tools seamlessly to enhance the efficiency of the testing process. I collaborated with the Chief Software Officer (CSO), providing regular updates and reports.
                 </p>
               </div>
             </div>
