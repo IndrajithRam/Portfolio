@@ -1,40 +1,41 @@
-export default function About() {
-  return (
-    <main className="container">
-      <div className="jumbotron">
-        <h1 className="display-4 aboutmeheading">About Me</h1>
-        <div className="container">
-          <div className="row">
-            <div className="col-4">
-              <img
-                src="/images/My_Pic.jpg"
-                alt="Photo"
-                className="photo-image"
-              />
+import MyPic from "../../public/images/My_Pic.jpg";
 
-              <p>
-                <i>
-                  <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indrajith Ram Loganathan</b>
-                </i>
-              </p>
+export default function About() {
+
+  return (
+
+    <main className="container" style={{textAlign: "center"}}>
+
+        <div className="jumbotron">
+
+          <h1 className="display-5 fw-medium" style={{marginTop: "1rem", marginBottom: "3rem"}}>About Me</h1>
+
+          <div className="row">
+            
+            <div className="col-md-5 col-lg-5 text-center">
+                
+              <img src={MyPic} alt="My Picture" style={{width: "300px"}} />
+
             </div>
-            <div className="col-8 about me text-start">
-              <p>
-                &#x2022; An energetic, team-oriented Senior Software Test
+
+            <div className="col-md-7 col-lg-7">
+
+              <h3 className="display-6" style={{fontSize: "30px"}}>
+                An energetic, team-oriented Senior Software Test
                 Engineer with 5.7 years of experience in Software Testing,
                 having experience in automation using Selenium web-driver with
                 Java on TestNG and Junit library. I've Designed and implemented
                 automation frameworks from scratch like Page and I've exposure
                 to Page Object Model and Data Driven framework.
-              </p>
-
-              <a href="resume.pdf" download="Indrajith-Ram.pdf">
-                My Resume
-              </a>
+              </h3>
+      
             </div>
+
           </div>
+
         </div>
-      </div>
-    </main>
+
+      </main>
+
   );
 }
