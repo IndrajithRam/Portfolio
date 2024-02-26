@@ -28,10 +28,7 @@ export default function About() {
                 to Page Object Model and Data Driven framework.
               </p>
 
-              <a
-                href="Assets/pdf/Indrajith Ram.pdf"
-                download="Indrajith Ram.pdf"
-              >
+              <a href="resume.pdf" download="Indrajith-Ram.pdf">
                 My Resume
               </a>
             </div>
