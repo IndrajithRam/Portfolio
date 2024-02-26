@@ -11,12 +11,15 @@ export default function Contact() {
   };
 
   return (
-    <main className="container" style={{ textAlign: 'center' }}>
+    <main className="container">
+      <h1
+        className="display-5 fw-medium text-center"
+        style={{ marginTop: "1rem", marginBottom: "3rem", color: "#f04343" }}
+      >
+        Connect
+      </h1>
 
-      <h1 className="display-5 fw-medium" style={{marginTop: "1rem", marginBottom: "3rem", color: "#f04343"}}>Connect</h1>
-
-      <div className="card dark-bg">
-
+      <div className="card dark-bg mx-auto">
         <form>
           <div className="form-group">
             <label className="form-label" htmlFor="name">
