@@ -1,8 +1,11 @@
 export default function Projects() {
   return (
-    <main className="container">
+    <main className="container" style={{ textAlign: 'center' }}>
+
+      <h1 className="display-5 fw-medium" style={{marginTop: "1rem", marginBottom: "3rem", color: "#f04343"}}>Projects</h1>
+
       <div className="jumbotron">
-        <h1 className="display-4 text-center">Projects</h1>
+
         <div className="container project-style">
           <div className="row">
             <div className="col-4">

@@ -37,7 +37,7 @@ export default function Header() {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/gallery">
+                <Link className="nav-link" aria-current="page" to="/skills">
                   Skills
                 </Link>
               </li>

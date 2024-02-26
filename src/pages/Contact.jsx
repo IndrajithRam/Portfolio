@@ -11,9 +11,12 @@ export default function Contact() {
   };
 
   return (
-    <main className="container">
-      <div className="card">
-        <h4 className="card-title text-center">Let's Connect</h4>
+    <main className="container" style={{ textAlign: 'center' }}>
+
+      <h1 className="display-5 fw-medium" style={{marginTop: "1rem", marginBottom: "3rem", color: "#f04343"}}>Connect</h1>
+
+      <div className="card dark-bg">
+
         <form>
           <div className="form-group">
             <label className="form-label" htmlFor="name">
@@ -21,7 +24,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              className="form-control form-control-sm"
+              className="form-control form-control-sm tb-input"
               id="name"
               name="name"
               value={data.name}
@@ -35,7 +38,7 @@ export default function Contact() {
             </label>
             <br />
             <textarea
-              className="form-control-sm w-100"
+              className="form-control-sm w-100 tb-input"
               id="message"
               rows="3"
               name="message"
@@ -44,14 +47,14 @@ export default function Contact() {
             ></textarea>
           </div>
           <button
-            type="submit"
-            className="btn btn-primary btn-sm submit-btn mt-3 w-100"
+            type="button"
+            className="btn btn-light btn-sm submit-btn mt-3 w-100"
             onClick={(e) => {
               e.preventDefault();
               window.location.href = `mailto:ilogana2@my.centennialcollege.ca?subject=${data.name}-Connect Request&body=${data.message}`;
             }}
           >
-            Submit
+            Connect!
           </button>
         </form>
       </div>
