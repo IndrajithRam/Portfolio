@@ -11,9 +11,9 @@ export default function Contact() {
   };
 
   return (
-    <main className="container" style={{ textAlign: "center" }}>
+    <main className="container">
       <h1
-        className="display-5 fw-medium"
+        className="display-5 fw-medium text-center"
         style={{ marginTop: "1rem", marginBottom: "3rem", color: "#f04343" }}
       >
         Connect

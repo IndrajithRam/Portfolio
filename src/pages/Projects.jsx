@@ -10,7 +10,7 @@ export default function Projects() {
 
       <div className="jumbotron">
         <div class="row mt-5">
-          <div class="col-sm-6">
+          <div class="col-md-6">
             <div class="card" style={{ maxWidth: "100%" }}>
               <div class="card-body">
                 <h5 class="card-title">Alpha Global IT</h5>
@@ -29,7 +29,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div class="col-sm-6 mt-2 mt-md-0">
+          <div class="col-md-6 mt-3 mt-md-0">
             <div class="card" style={{ maxWidth: "100%" }}>
               <div class="card-body">
                 <h5 class="card-title">Synchrony Financial</h5>
@@ -51,8 +51,8 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="row mt-4">
-          <div class="col-sm-6">
+        <div className="row mt-3 mt-md-4">
+          <div class="col-md-6">
             <div class="card" style={{ maxWidth: "100%" }}>
               <div class="card-body">
                 <h5 class="card-title">Concardis</h5>
@@ -72,7 +72,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-md-6">
             <div class="card mt-2 mt-md-0" style={{ maxWidth: "100%" }}>
               <div class="card-body">
                 <h5 class="card-title">T-Net</h5>
