@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
-          <a className="navbar-brand text-light" href="/">
+          <a className="navbar-brand text-light" href="">
             IR
           </a>
           <button
