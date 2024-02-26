@@ -15,16 +15,16 @@ export default function Projects() {
               <div class="card-body">
                 <h5 class="card-title">Alpha Global IT</h5>
                 <p className="card-text">
-                  The T-Net application is a platform for the customers to buy
-                  new devices, services, accessories, etc,. Customers can place
-                  their orders online through the web app and track their order
-                  statuses with the reference ID.
-                </p>
-
-                <p className="card-text mt-1">
-                  New devices were added to the application for sale, carried
-                  out testing for these changes in a short period of time and
-                  launched it live successfully.
+                  In my role at GlobeMed, I took charge of Automation testing
+                  for Alpha's EMR solution. I developed a robust Hybrid
+                  framework using Selenium and Cucumber, integrating these tools
+                  seamlessly to enhance the efficiency of the testing process. I
+                  actively collaborated with the Chief Software Officer (CSO),
+                  providing regular updates and reports on new requirements to
+                  ensure alignment with the project goals. Additionally, I
+                  demonstrated adept problem-solving skills by promptly handling
+                  and resolving high-priority tasks, contributing to the overall
+                  success of the testing initiatives.
                 </p>
               </div>
             </div>

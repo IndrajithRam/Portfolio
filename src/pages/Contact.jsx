@@ -19,7 +19,7 @@ export default function Contact() {
         Connect
       </h1>
 
-      <div className="card dark-bg">
+      <div className="card dark-bg mx-auto">
         <form>
           <div className="form-group">
             <label className="form-label" htmlFor="name">
