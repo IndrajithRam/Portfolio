@@ -20,3 +20,20 @@ body {
   object-fit: cover;
   border-radius: 50%;
 }
+
+.container {
+  max-width: 1080px !important;
+}
+
+.card {
+  max-width: 22rem;
+  padding: 20px;
+  margin: 40px auto;
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  background-color: #0c1117;
+  border: 1px solid hsla(0, 0%, 100%, 0.125);
+  border-radius: 12px;
+  box-shadow: 0 4px 4px 0 #00000040;
+  color: #fbfbfb;
+}
