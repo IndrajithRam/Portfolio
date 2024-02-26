@@ -13,7 +13,7 @@ export default function Projects() {
           <div class="col-md-6">
             <div class="card" style={{ maxWidth: "100%" }}>
               <div class="card-body">
-                <h5 class="card-title">Alpha Global IT</h5>
+                <h5 class="card-title" style={{ fontSize: "30px", color: "#f04343", marginBottom: "1rem" }}>Alpha Global IT</h5>
                 <p className="card-text">
                   In my role at GlobeMed, I took charge of Automation testing
                   for Alpha's EMR solution. I developed a robust Hybrid
@@ -32,7 +32,7 @@ export default function Projects() {
           <div class="col-md-6 mt-3 mt-md-0">
             <div class="card" style={{ maxWidth: "100%" }}>
               <div class="card-body">
-                <h5 class="card-title">Synchrony Financial</h5>
+                <h5 class="card-title" style={{ fontSize: "30px", color: "#f04343", marginBottom: "1rem" }}>Synchrony Financial</h5>
                 <p class="card-text">
                   IHS (Integrated Hosted Solution) is a new application which
                   was developed and tested to take care of the
@@ -55,7 +55,7 @@ export default function Projects() {
           <div class="col-md-6">
             <div class="card" style={{ maxWidth: "100%" }}>
               <div class="card-body">
-                <h5 class="card-title">Concardis</h5>
+                <h5 class="card-title" style={{ fontSize: "30px", color: "#f04343", marginBottom: "1rem" }}>Concardis</h5>
 
                 <p className="card-text">
                   The T-Net application is a platform for the customers to buy
@@ -75,7 +75,7 @@ export default function Projects() {
           <div class="col-md-6">
             <div class="card mt-2 mt-md-0" style={{ maxWidth: "100%" }}>
               <div class="card-body">
-                <h5 class="card-title">T-Net</h5>
+                <h5 class="card-title" style={{ fontSize: "30px", color: "#f04343", marginBottom: "1rem" }}>T-Net</h5>
                 <p className="card-text">
                   The T-Net application is a platform for the customers to buy
                   new devices, services, accessories, etc,. Customers can place
