@@ -1,0 +1,33 @@
+.app {
+  background-color: #0d1117;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.custom-input {
+  width: 350px;
+  background-color: #238636 !important;
+}
+
+.dark-bg {
+  background-color: #161b22 !important;
+  color: white;
+  border: 2px solid #30363d;
+  padding: 30px;
+}
+
+.tb-input {
+  width: 350px;
+  border: none;
+  background-color: #0d1117 !important;
+  color: wheat !important;
+  border: 2px solid #30363d;
+}
+
+.textarea-control {
+  height: 100px;
+}
